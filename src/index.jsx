@@ -10,13 +10,14 @@ import './mock';
 
 // Include styles.
 import './styles/index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 // Include application component.
 import App from './components/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
